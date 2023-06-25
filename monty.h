@@ -44,6 +44,7 @@ extern char *args[100];
 /*function prototypes*/
 bool isStringDigits(char *str);
 void push(stack_t **stack, unsigned int line_number);
+void pall(stack_t **stack, unsigned int line_number);
 void free_stack(stack_t *stack);
 void execute_interpreter(FILE *file, instruction_t *instructions);
 
