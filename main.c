@@ -22,6 +22,7 @@ int main(int argc, char **argv)
 		{"sub", sub},
 		{"div", divi},
 		{"mul", mul},
+		{"mod", mod},
 		{NULL, NULL}
 	};
 
