@@ -1,5 +1,7 @@
 #include "monty.h"
 
+char *args[100];
+
 /**
  * main - entry point
  * @argc: number of arguments passed
@@ -11,12 +13,6 @@ int main(int argc, char **argv)
 	FILE *file;
 	instruction_t instructions[] = {
 		{"push", push},
-		{"pall", pall},
-		{"pint", pint},
-		{"pop", pop},
-		{"swap", swap},
-		{"add", add},
-		{"nop", nop},
 		{NULL, NULL}
 	};
 
