@@ -23,6 +23,8 @@ int main(int argc, char **argv)
 		{"div", divi},
 		{"mul", mul},
 		{"mod", mod},
+		{"pchar", pchar},
+		{"pstr", pstr},
 		{NULL, NULL}
 	};
 
